@@ -5,7 +5,7 @@ BEGIN
     BEGIN
         BLOCK "080404b0"
         BEGIN
-			VALUE "FileDescription", "cat-box"
+			VALUE "FileDescription", "go/w32 demo"
         END
     END
     BLOCK "VarFileInfo"

@@ -10,7 +10,7 @@ import (
 )
 
 func init() {
-	// windows GUI 编程需要在主线程上
+	// windows GUI 编程需要在os线程上
 	// 注意：锁定到os线程并没有高枕无忧，如果在协程中运行还是会卡死，不信自己测试，有解决办法告诉我一下
 	// 此处只能保证在主线程中正常运行
 	runtime.LockOSThread()
